@@ -1,0 +1,168 @@
+// color variables
+$primary-color:salmon;
+$secondary-color:orange;
+$accent-one:blue;
+$accesnt-two:green;
+
+
+$text-900: #121926;
+$text-800: #202939;
+$text-700: #364152;
+$text-600: #4b5565;
+$text-500: #6d7582;
+$text-400: #9aa4b2;
+$text-300: #cdd5df;
+$text-200: #eef0f2;
+$text-100: #fafafa;
+
+$skeleton-color: #f5f5f5;
+
+$white: #ffffff;
+
+$danger: #f44336;
+$success: #23a047;
+$warning: #fca004;
+$info: #0052ea;
+
+// FONT VARIABLES
+$font-primary: sans-serif;
+
+h1,
+.h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+  line-height: 3.625rem;
+  letter-spacing: -0.6px;
+  margin: 0;
+
+    @media(max-width:992px){
+    font-size: 2.8rem;
+    line-height: 3.225rem;
+    letter-spacing: -0.03rem;
+  }
+
+    @media(max-width:992px) {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    letter-spacing: -0.025rem;
+  }
+
+    @media(max-width:992px){
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 2.25rem;
+  font-weight: bold;
+  line-height: 2.625rem;
+  letter-spacing: -0.025rem;
+  margin: 0;
+
+    @media(max-width:992px){
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+
+    @media(max-width:992px) {
+    font-size: 1.8rem;
+    line-height: 2rem;
+  }
+
+    @media(max-width:992px){
+    font-size: 1.625rem;
+    line-height: 1.875rem;
+  }
+}
+
+h3,
+.h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.875rem;
+  letter-spacing: -0.025rem;
+  margin: 0;
+
+    @media(max-width:992px){
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+    @media(max-width:992px) {
+    font-size: 1.3rem;
+    line-height: 1.55rem;
+  }
+
+    @media(max-width:992px){
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+  letter-spacing: -0.02rem;
+  margin: 0;
+
+    @media(max-width:992px){
+    font-size: 1.225rem;
+    line-height: 1.4rem;
+  }
+
+    @media(max-width:992px){
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    letter-spacing: -0.025rem;
+  }
+}
+
+h5,
+.h5 {
+  font-size: 1.125rem;
+  font-weight: bold;
+  line-height: 1.3rem;
+  letter-spacing: -0.02rem;
+  margin: 0;
+
+    @media(max-width:992px){
+    font-size: 1.12rem;
+    line-height: 1.28rem;
+  }
+}
+
+.body-1 {
+  font-size: 1.125rem;
+  font-weight: normal;
+  line-height: 1.5rem;
+  letter-spacing: -0.00625rem;
+  margin: 0;
+}
+
+p,
+.body-2 {
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.4rem;
+  letter-spacing: -0.00625rem;
+  margin: 0;
+}
+
+.small {
+  font-size: 0.875rem;
+  font-weight: normal;
+  line-height: 1rem;
+  letter-spacing: -0.00625rem;
+
+    @media (max-width:992px) {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    letter-spacing: -0.00625rem;
+  }
+}
+
+
